@@ -16,4 +16,17 @@ public class Yazar {
     private long yazarno;
     private String ad;
     private String soyad;
+
+    public String getAd() {
+        return ad;
+    }
+
+    public long getYazarno() {
+        return yazarno;
+    }
+
+    public String getSoyad() {
+        return soyad;
+    }
 }
+

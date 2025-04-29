@@ -18,4 +18,36 @@ public class Kitap {
     private int puan;
     private long yazarno;
     private long turno;
+
+    public void setPuan(int puan) {
+        this.puan = puan;
+    }
+
+    public int getPuan() {
+        return puan;
+    }
+
+    public long getKitapno() {
+        return kitapno;
+    }
+
+    public long getTurno() {
+        return turno;
+    }
+
+    public long getYazarno() {
+        return yazarno;
+    }
+
+    public String getAd() {
+        return ad;
+    }
+
+    public void setAd(String ad) {
+        this.ad = ad;
+    }
+
+    public void setKitapno(long kitapno) {
+        this.kitapno = kitapno;
+    }
 }

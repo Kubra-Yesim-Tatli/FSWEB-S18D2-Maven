@@ -15,4 +15,21 @@ public class Tur {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long turno;
     private String ad;
+
+    public String getAd() {
+        return ad;
+    }
+
+    public void setAd(String ad) {
+        this.ad = ad;
+    }
+
+    public long getTurno() {
+        return turno;
+    }
+
+    public void setTurno(long turno) {
+        this.turno = turno;
+    }
+
 }
