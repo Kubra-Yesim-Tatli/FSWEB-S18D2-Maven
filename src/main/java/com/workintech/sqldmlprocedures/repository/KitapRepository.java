@@ -12,6 +12,7 @@ public interface KitapRepository extends JpaRepository<Kitap, Long> {
 
     Kitap findByAd(String ad);
 
+
     @Transactional
     @Modifying
     @Query(value = "CALL public.ekle(:ad, :puan, :yazarno, :turno)", nativeQuery = true)
